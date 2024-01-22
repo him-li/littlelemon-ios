@@ -1,18 +1,32 @@
-//
-//  RestaurantView.swift
-//  littlelemon-ios
-//
-//  Created by 李鑫 on 22/01/2024.
-//
-
 import SwiftUI
 
 struct RestaurantView: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+  private var restaurant:RestaurantLocation
+  
+  init(_ restaurant:RestaurantLocation) {
+    self.restaurant = restaurant
+  }
+  
+  var body: some View {
+    VStack (alignment: .leading, spacing:3){
+      Text(restaurant.city)
+        .font(.title2)
+      
+      HStack {
+        Text(restaurant.neighborhood)
+        Text("–")
+        Text(restaurant.phoneNumber)
+      }
+      .font(.caption)
+      .foregroundColor(.gray)
+
     }
+  }
 }
 
-#Preview {
-    RestaurantView()
+struct Restaurant_Previews: PreviewProvider {
+  static var previews: some View {
+    let sampleRestaurant = RestaurantLocation(city: "Las Vegas", neighborhood: "Downtown", phoneNumber: "(702) 555-9898")
+    RestaurantView(sampleRestaurant)
+  }
 }

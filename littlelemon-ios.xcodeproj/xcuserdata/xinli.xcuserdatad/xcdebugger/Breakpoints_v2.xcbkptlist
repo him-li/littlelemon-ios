@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "682E371F-1BD5-42B9-BB0A-3229342C00AD"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4707F501-A480-4C99-B6DD-C3D99030FDC2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../../var/folders/k5/gynnqzjn24g8fp5mktlg2n_80000gn/T/swift-generated-sources/@__swiftmacro_15littlelemon_ios012_BE0F4E783C3F19BD1E6F447B15E9A21D6Ll7PreviewfMf_.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1"
+            endingLineNumber = "1"
+            landmarkName = "$s15littlelemon_ios012_BE0F4E783C3F19BD1E6F447B15E9A21D6Ll7PreviewfMf_15PreviewRegistryfMu_"
+            landmarkType = "37">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "345897BD-18E6-409A-860C-5C7A7DC46EE2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../../var/folders/k5/gynnqzjn24g8fp5mktlg2n_80000gn/T/swift-generated-sources/@__swiftmacro_15littlelemon_ios012_BE0F4E783C3F19BD1E6F447B15E9A21D6Ll7PreviewfMf0_.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1"
+            endingLineNumber = "1"
+            landmarkName = "$s15littlelemon_ios012_BE0F4E783C3F19BD1E6F447B15E9A21D6Ll7PreviewfMf0_15PreviewRegistryfMu_"
+            landmarkType = "37">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
